@@ -12,8 +12,7 @@ orders.
 <h1> Developers </h1>
 
 <UL>
-<LI> Herman Singh - <a href="http://github.com/Kartstig/">http://github.com/Kartstig/</a>
-<a href="https://twitter.com/HermanSingh4" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @HermanSingh4</a>
+<LI> Herman Singh - <a href="http://github.com/Kartstig/">http://github.com/Kartstig/</a> | <a href="https://twitter.com/HermanSingh4" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @HermanSingh4</a>
 
 
 </UL>
@@ -23,5 +22,6 @@ orders.
 <UL>
 <LI> Login Page - Doesn't work. Skip through the sign in function
 <LI> Menu Activity - Works. Pulls a menu item from a URL and parses the JSON to inflate a list.
-<LI> Fragment Viewstyle - Not built yet.
+<LI> Swipe View - Not built yet.
+<LI> QR Scanner - Not built yet.
 </UL>
