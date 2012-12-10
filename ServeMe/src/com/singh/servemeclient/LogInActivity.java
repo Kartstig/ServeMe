@@ -78,7 +78,7 @@ public class LogInActivity extends Activity {
 
 				// Don't forget to pass intent information for login
 				Intent myIntent = new Intent(v.getContext(),
-						BeerListActivity.class);
+						LocationActivity.class);
 				startActivityForResult(myIntent, 0);
 			}
 		});

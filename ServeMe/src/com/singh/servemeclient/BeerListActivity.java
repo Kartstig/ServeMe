@@ -21,9 +21,12 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.singh.servemeclient.helper.AlertDialogManager;
 import com.singh.servemeclient.helper.ConnectionDetector;
+import com.singh.servemeclient.helper.IntentIntegrator;
+import com.singh.servemeclient.helper.IntentResult;
 import com.singh.servemeclient.helper.JSONParser;
 
 public class BeerListActivity extends ListActivity {
@@ -98,7 +101,7 @@ public class BeerListActivity extends ListActivity {
 	}
 
 	/**
-	 * Background Async Task to Load all Albums by making http request
+	 * Background Async Task to Load all Beers by making http request
 	 * */
 	class LoadBeers extends AsyncTask<String, String, String> {
 
