@@ -29,25 +29,25 @@ public class LocationActivity extends Activity {
 		IntentResult scanResult = IntentIntegrator.parseActivityResult(
 				requestCode, resultCode, intent);
 		if (scanResult != null) {
-			Log.i("IntentResult",scanResult.toString());
+			Log.i("IntentResult", scanResult.toString());
 
-		}else {
-		Toast.makeText(getApplicationContext(),
-				"Invalid Barcode. Please Try Again.", Toast.LENGTH_LONG)
-				.show();
-		Intent myIntent = new Intent(LocationActivity.this,
-				LogInActivity.class);
-		startActivityForResult(myIntent, 0);
+		} else {
+			Toast.makeText(getApplicationContext(),
+					"Invalid Barcode. Please Try Again.", Toast.LENGTH_LONG)
+					.show();
+			Intent myIntent = new Intent(LocationActivity.this,
+					LogInActivity.class);
+			startActivityForResult(myIntent, 0);
 		}
 	}
-	
+
 	protected void onResume() {
 		super.onResume();
 		if (D)
 			Log.e(TAG, "+++ ON RESUME +++");
-		
+
 	}
-	
+
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
