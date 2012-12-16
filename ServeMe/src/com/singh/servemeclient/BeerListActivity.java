@@ -52,7 +52,7 @@ public class BeerListActivity extends ListActivity {
 	JSONArray beers = null;
 
 	// beers JSON url
-	private static final String URL_BEERS = "http://sleepy-sands-8205.herokuapp.com/beers.json";
+	private static String URL_BEERS = null;
 
 	// ALL JSON node names
 	private static final String TAG_ID = "id";
@@ -68,6 +68,8 @@ public class BeerListActivity extends ListActivity {
 		setContentView(R.layout.activity_beers);
 
 		cd = new ConnectionDetector(getApplicationContext());
+		
+		URL_BEERS = getIntent().getStringExtra("URL");
 
 		// Check for internet connection
 		if (!cd.isConnectingToInternet()) {
