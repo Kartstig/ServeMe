@@ -12,7 +12,7 @@ orders.
 <h1> Developers </h1>
 
 <UL>
-<LI> Herman Singh - <a href="http://github.com/Kartstig/">http://github.com/Kartstig/</a> | <a href="https://twitter.com/HermanSingh4" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @HermanSingh4</a>
+<LI> Herman Singh - <a href="http://github.com/Kartstig/">http://github.com/Kartstig/</a> | <a href="https://twitter.com/SinghHermann" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @SinghHermann</a>
 
 
 </UL>
